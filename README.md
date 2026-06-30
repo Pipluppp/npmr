@@ -22,13 +22,12 @@ The package page uses npmjs-style tabs with a sidebar that stays visible across 
 
 ## Stack
 
-- React, TypeScript, Vite
+React SPA Vite + Hono worker, deployed in a single Cloudflare Worker (static assets for React SPA, worker for Hono) 
+
 - TanStack Router and TanStack Query
-- Tailwind, shadcn, Radix
-- Jotai when shared client state is useful
+- Tailwind, shadcn
 - Hono on Cloudflare Workers
 - Zod for request validation
-- Workers Cache API and KV for caching
 
 ## Data
 
