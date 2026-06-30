@@ -1,0 +1,52 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+.vite/
+.output/
+.tanstack/
+.nitro/
+
+# Local environment
+.env
+.env.*
+!.env.example
+.dev.vars
+.dev.vars.*
+.vscode
+
+# Cloudflare and deployment state
+.wrangler/
+.mf/
+
+# Test and coverage output
+coverage/
+playwright-report/
+test-results/
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+bun-debug.log*
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# Local reference repos
+.npmx/
+.pierre/
+
+# Private learning notes and agent instructions
+learning
+AGENTS.md
+CLAUDE.md
